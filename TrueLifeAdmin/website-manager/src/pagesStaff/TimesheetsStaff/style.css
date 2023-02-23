@@ -1,0 +1,18 @@
+.group__choose__time__timeSheetsStaff {
+  width: 32%;
+}
+
+.group__choose__time__timeSheetsStaff p {
+  margin: 0;
+  line-height: 30px;
+}
+
+.input__choose__date__timeSheetsStaff {
+  width: 70%;
+  text-align: start;
+}
+
+.input__choose__date__timeSheetsStaff
+  .ant-picker.css-dev-only-do-not-override-9ntgx0 {
+  width: 200px;
+}

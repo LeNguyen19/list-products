@@ -1,0 +1,37 @@
+.group__btn__addStaff {
+  text-align: center;
+}
+
+.group__btn__addStaff button {
+  margin: 0 8px;
+}
+
+.content__detail__staff {
+  width: 300px;
+}
+
+.content__detail__staff input {
+  width: 92.8%;
+}
+
+::placeholder {
+  color: var(--color-blackWhite);
+}
+.content__detail__staff .ant-picker.css-dev-only-do-not-override-9ntgx0 {
+  border: 1px solid var(--color-grey);
+  width: 205%;
+}
+
+.content__detail__address__staff {
+  width: 85%;
+}
+
+.content__detail__address__addStaff {
+  padding-left: 9px;
+}
+
+.title__detail__address__addStaff {
+  font-weight: var(--font-weight-semibold);
+  width: 118px;
+  text-align: start;
+}

@@ -1,0 +1,27 @@
+.btn__timesheets {
+  text-align: end;
+}
+
+.group__choose__month__timeSheets {
+  width: 32%;
+}
+
+.group__choose__month__timeSheets p {
+  margin: 0;
+  line-height: 30px;
+}
+
+.input__choose__month__timeSheets {
+  width: 70%;
+  float: left;
+  text-align: start;
+}
+
+.input__choose__month__timeSheets
+  .ant-picker.css-dev-only-do-not-override-9ntgx0 {
+  width: 200px;
+}
+
+.nameStaff__timesheets {
+  text-align: start;
+}

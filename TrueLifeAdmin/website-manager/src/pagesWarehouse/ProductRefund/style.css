@@ -1,0 +1,46 @@
+.info__product__refund {
+  width: 12%;
+  text-align: center;
+}
+
+.nature__product__refund {
+  width: 18%;
+  text-align: start;
+}
+
+.name__product__refund {
+  text-align: start;
+}
+
+.group__checkbox__product__refund {
+  width: 32%;
+}
+
+.group__unCheckbox__product__refund {
+  width: 47%;
+}
+
+.group__check__product__refund {
+  width: 30%;
+}
+
+.group__checkbox__product__refund p,
+.group__unCheckbox__product__refund p {
+  font-weight: 400;
+}
+
+.check__reuse {
+  width: 12px;
+  height: 12px;
+  margin-top: 1px;
+  border: 2px solid var(--color-pink);
+  background-image: url("../../assets/images/Vector.svg");
+  background-size: contain;
+}
+
+.check__unReuse {
+  width: 12px;
+  height: 12px;
+  margin-top: 1px;
+  border: 2px solid var(--color-greyDark);
+}

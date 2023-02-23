@@ -1,0 +1,38 @@
+.group__choose__expiry {
+  width: 35%;
+}
+
+.group__choose__expiry p {
+  margin: 0;
+  line-height: 30px;
+}
+
+.input__choose__expiry {
+  width: 63%;
+}
+
+.amount__almostExpired {
+  width: 10%;
+  text-align: center;
+}
+
+.name__almostExpired {
+  text-align: start;
+}
+
+.expired__almostExpired {
+  width: 15%;
+  text-align: center;
+}
+
+.nature__almostExpired {
+  width: 15%;
+  text-align: start;
+}
+
+#add__promotion,
+#add__return,
+#product__return,
+#product__promotion {
+  display: none;
+}

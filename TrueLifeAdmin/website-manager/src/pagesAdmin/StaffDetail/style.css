@@ -1,0 +1,36 @@
+.group__avt__staff img {
+  width: 250px;
+}
+
+.group__info__detail__staff tr {
+  line-height: 40px;
+}
+
+.info__detail__staff {
+  width: 48%;
+}
+
+.title__detail__staff {
+  font-weight: var(--font-weight-semibold);
+  width: 125px;
+}
+
+.title__detail__address__staff {
+  font-weight: var(--font-weight-semibold);
+  width: 116px;
+  text-align: start;
+}
+
+.content__detail__staff,
+.content__detail__address__staff {
+  text-align: start;
+  padding-left: 10px;
+}
+
+td.title__detail__staff {
+  text-align: start;
+}
+
+.group__info__detail__staff {
+  width: 75%;
+}

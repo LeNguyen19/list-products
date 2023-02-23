@@ -1,0 +1,39 @@
+.dateBirth__client,
+.gender__client {
+  width: 10%;
+  text-align: center;
+}
+
+.phone__client {
+  width: 12%;
+  text-align: center;
+}
+
+.type__client {
+  width: 15%;
+  text-align: start;
+}
+
+.name__client,
+.email__client {
+  width: 15%;
+  text-align: start;
+}
+
+.adress__client {
+  text-align: start;
+}
+
+.group__type__client,
+.group__find__client {
+  width: 48%;
+}
+
+.group__type__client p{
+  margin: 0;
+  line-height: 30px;
+}
+
+.input__type__client{
+  width: 76%;
+}

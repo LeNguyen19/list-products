@@ -1,0 +1,57 @@
+.input__nameCategory {
+  width: 20%;
+}
+
+.input__nameCategory input {
+  width: 100%;
+}
+
+.input__desCategory {
+  width: 55%;
+}
+
+
+#add__new__category {
+  text-align: end;
+}
+
+.input__desCategory input {
+  width: 100%;
+}
+
+.code__category {
+  width: 10%;
+  text-align: center;
+}
+
+.name__category {
+  width: 20%;
+}
+
+.update__category,
+.deleted__category {
+  width: 8%;
+  text-align: center;
+  padding: 0;
+}
+
+.name__category,
+.des__category {
+  text-align: start;
+}
+
+#save__category {
+  display: none;
+}
+
+#cancel__category {
+  display: none;
+}
+
+#update__name__category{
+  display: none;
+}
+
+#update__des__category{
+  display: none;
+}

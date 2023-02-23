@@ -1,0 +1,13 @@
+.content__feedback {
+  width: 78%;
+  text-align: start;
+}
+
+.content__feedback textarea {
+  width: 96%;
+  height: 216px;
+}
+
+.img__feedback {
+  width: 20.5%;
+}

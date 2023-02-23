@@ -1,0 +1,64 @@
+.group__btn__invoiceImport {
+  text-align: end;
+}
+
+.group__btn__invoiceImport button {
+  margin-left: 15px;
+}
+
+.group__info__invoiceImport {
+  width: 48%;
+}
+
+.group__info__invoiceImport p {
+  margin: 0;
+  line-height: 30px;
+}
+
+.input__info__invoiceImport {
+  width: 78%;
+}
+
+.input__info__invoiceImport input {
+  width: 95.2%;
+}
+
+.ant-picker.css-dev-only-do-not-override-1s3dcof {
+  width: 100%;
+}
+
+.ant-space.css-dev-only-do-not-override-1s3dcof.ant-space-vertical {
+  width: 100%;
+}
+
+.btn__update__detailInvoiceImport {
+  text-align: center;
+  width: 5%;
+}
+
+.date__detailInvoiceImport {
+  width: 10%;
+  text-align: center;
+}
+
+.trademark__detailInvoiceImport {
+  width: 12%;
+  text-align: start;
+}
+
+.nature__detailInvoiceImport {
+  width: 11%;
+  text-align: start;
+}
+
+.name__detailInvoiceImport {
+  text-align: start;
+}
+
+.input__info__invoiceImport {
+  text-align: start;
+}
+
+.input__info__invoiceImport .ant-picker.css-dev-only-do-not-override-9ntgx0 {
+  width: 316%;
+}

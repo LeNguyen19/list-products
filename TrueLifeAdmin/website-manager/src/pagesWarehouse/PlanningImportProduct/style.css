@@ -1,0 +1,61 @@
+.group__info__product__import {
+  width: 78%;
+}
+
+.group__info__product__import p {
+  margin: 0;
+  line-height: 30px;
+}
+
+.group__sopport__product__import {
+  width: 20%;
+}
+
+.input__supplier__planImport,
+.input__name__product__planImport {
+  width: 43%;
+}
+
+.input__nature__planImport,
+.input__type__product__planImport {
+  width: 55%;
+}
+
+.input__price__planImport,
+.input__amountStock__planImport,
+.input__amountImport__planImport {
+  width: 32%;
+}
+
+.input__choose__nameProduct__planImport,
+.input__choose__supplier__planImport {
+  width: 75%;
+}
+
+.input__choose__nature__planImport,
+.input__choose__typeProduct__planImport {
+  width: 81%;
+}
+
+.input__infoProduct__planImport {
+  width: 60%;
+}
+
+.input__infoProduct__planImport input {
+  width: 91%;
+}
+
+.group__btn__planImport {
+  text-align: end;
+}
+
+.input__type__product__planImport p,
+.input__name__product__planImport p,
+.input__supplier__planImport p,
+.input__nature__planImport p,
+.input__price__planImport p,
+.input__amountStock__planImport p,
+.input__amountImport__planImport p {
+  margin: 0;
+  line-height: 30px;
+}

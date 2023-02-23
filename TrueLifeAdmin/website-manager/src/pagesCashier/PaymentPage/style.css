@@ -1,0 +1,472 @@
+.input__price__client {
+  text-align: right;
+}
+
+.header__payment {
+  height: 35px;
+  width: 100%;
+  background: var(--color-pink);
+}
+
+.header__payment p {
+  margin: 0;
+  line-height: 35px;
+  margin-left: 30px;
+  font-weight: var(--font-weight-medium-bold);
+  color: var(--color-white);
+}
+
+.header__payment img {
+  width: 22px;
+  height: 22px;
+  margin: 6px 30px;
+}
+
+.header__payment img:hover {
+  cursor: pointer;
+}
+
+.content__payment {
+  background: var(--color-grey);
+}
+
+.group__choose__payment {
+  width: 71%;
+}
+.group__bill__payment {
+  width: 26%;
+  background: var(--color-white);
+  padding: 20px;
+  height: 89.8vh;
+}
+
+.customer__lookup input {
+  outline: none;
+  border: none;
+  font-family: "Quicksand", sans-serif;
+  width: 60%;
+  height: 30px;
+}
+
+.group__bill__payment hr {
+  height: 1px;
+  border: none;
+  background: var(--color-grey);
+}
+
+.table__cashier tr {
+  height: 35px;
+}
+
+.table__cashier table {
+  margin: 0 !important;
+}
+
+.title__cashier {
+  width: 40%;
+  text-align: start;
+}
+
+.price__cashier {
+  width: 60%;
+  text-align: end;
+}
+
+.group__btn__payment {
+  height: 32px;
+  width: 46px;
+  background: var(--color-pink);
+  border-radius: 5px;
+}
+
+.group__btn__payment img {
+  margin: 0 8px;
+}
+
+.group__btn__payment:hover {
+  cursor: pointer;
+  background: var(--color-blackDark);
+}
+
+.btn__payment {
+  width: 100%;
+}
+
+.find__product__payment {
+  background: var(--color-white);
+  height: 75%;
+  display: block;
+  padding: 10px 20px;
+}
+
+.group__find__product__payment p {
+  margin: 0;
+  line-height: 30px;
+  font-weight: var(--font-weight-bold);
+}
+
+.input__find__product {
+  position: relative;
+  width: 430px;
+  height: 30px;
+  padding: 0 10px;
+  font-family: "Quicksand", sans-serif;
+  outline: none;
+  border: 1px solid var(--color-grey);
+  border-radius: 5px;
+}
+
+.wrapper__scan {
+  width: 40px;
+  background: var(--color-pink);
+  border-radius: 5px;
+  height: 32px;
+}
+
+.wrapper__scan:hover {
+  cursor: pointer;
+  background: var(--color-blackDark);
+}
+
+.wrapper__scan img {
+  width: 25px;
+  margin: 3px 8px;
+}
+
+.wrapper__list__product {
+  height: 88%;
+  width: 100%;
+  display: block;
+  border: 1px solid var(--color-greyDark);
+  background-image: url("../../assets/images/shopping.jpg");
+  overflow-y: scroll;
+}
+
+.wrapper__list__product::-webkit-scrollbar {
+  width: 0px;
+}
+
+.choose__info__payment {
+  margin-top: 5px;
+  height: 16%;
+  display: block;
+  background: var(--color-white);
+  padding: 20px;
+  display: flex;
+  flex-direction: row;
+  column-gap: 20px;
+}
+
+.choose__info__payment button {
+  height: 35px;
+  padding: 0 20px;
+  font-family: "Quicksand", sans-serif;
+  font-weight: var(--font-weight-medium-bold);
+  color: var(--color-white);
+  border: 1px solid var(--color-pink);
+  background: var(--color-pink);
+  border-radius: 5px;
+  font-size: var(--font-size-s);
+}
+
+.choose__info__payment button:hover {
+  cursor: pointer;
+  color: var(--color-white);
+  background: var(--color-blackDark);
+  border: 1px solid var(--color-blackDark);
+}
+
+.payment__img {
+  width: 100%;
+  height: 165px;
+}
+
+/* Show sản phẩm khi nhập mã----------------------------------------------- */
+.list__product__payment {
+  position: absolute;
+  width: 430px;
+  height: 420px;
+  background: var(--color-white);
+  border: 1px solid var(--color-grey);
+  top: 80px;
+  border-radius: 5px;
+  padding: 10px;
+  display: none;
+  overflow-y: scroll;
+}
+
+.list__product__payment::-webkit-scrollbar {
+  width: 0px;
+}
+
+.list__product__payment img {
+  width: 80px;
+}
+
+.info__product__payment {
+  width: 75%;
+  margin: auto;
+}
+
+.wrapper__product__payment {
+  height: 80px;
+}
+
+.name__product__payment {
+  font-weight: var(--font-weight-medium-bold);
+  font-size: var(--font-size-s);
+  margin: 0;
+  text-align: center;
+}
+
+.price__product__payment {
+  margin: 0;
+  text-align: center;
+}
+
+.hide {
+  display: none;
+}
+/*List product in cart -------------------------------------- */
+.img__product__payment {
+  width: 80px;
+}
+
+.numerical__order__table__listProduct {
+  width: 8%;
+  text-align: center;
+}
+
+.amount__table__listProduct {
+  width: 15%;
+  text-align: center;
+}
+/*Hộp đăng ký thành viên ----------------------------------------------- */
+.container__payment__cashier {
+  position: relative;
+}
+
+.curtain {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  display: none;
+  background: var(--color-blackDark);
+  opacity: 0.6;
+}
+
+.wrapper__signUp__member {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 300px;
+  height: 350px;
+  display: none;
+  background: var(--color-white);
+  border-radius: 10px;
+  box-shadow: 2px 2px 5px var(--color-light-box);
+  text-align: center;
+}
+
+.wrapper__signUp__member p {
+  margin-top: 30px;
+  font-weight: var(--font-weight-bold);
+  font-size: var(--font-size-s);
+  margin-bottom: 0;
+}
+
+.wrapper__signUp__member input {
+  margin: 5px 0;
+  outline: none;
+  border: 1px solid var(--color-grey);
+  height: 30px;
+  padding: 0 20px;
+  font-family: "Quicksand", sans-serif;
+  border-radius: 50px;
+  width: 180px;
+}
+
+.wrapper__signUp__member input:focus {
+  border: 1px solid var(--color-pink);
+}
+
+.wrapper__signUp__member button {
+  position: relative;
+  height: 32px;
+  border: 1px solid var(--color-blackDark);
+  background: var(--color-blackDark);
+  color: var(--color-white);
+  padding: 0 10px;
+  border-radius: 5px;
+  font-family: "Quicksand", sans-serif;
+  width: fit-content;
+  font-weight: var(--font-weight-medium-bold);
+  font-size: 16px;
+}
+.wrapper__signUp__member button:hover {
+  cursor: pointer;
+  border: 1px solid var(--color-pink);
+  background: var(--color-pink);
+}
+
+.wrapper__signUp__member img {
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  width: 30px;
+}
+
+.wrapper__signUp__member img:hover {
+  cursor: pointer;
+}
+
+#error__message__payment {
+  font-size: 14px;
+  font-weight: 400;
+  margin-top: 10px;
+  display: none;
+}
+
+/*Hộp dịch vụ gói quà -------------------------------------------------------- */
+.wrapper__gift__service__payment {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 700px;
+  height: 450px;
+  display: block;
+  background: var(--color-white);
+  border-radius: 10px;
+  box-shadow: 2px 2px 5px var(--color-light-box);
+  padding: 20px;
+}
+
+.wrapper__gift__service__payment p {
+  margin: 0;
+}
+
+.group__info__service__payment img {
+  width: 120px;
+  height: 100px;
+}
+
+.info__service__payment {
+  width: 70%;
+  text-align: start;
+}
+
+.info__service__payment p {
+  margin: 0;
+}
+
+.group__btn__wrpper__gift__service__payment {
+  text-align: center;
+  position: relative;
+}
+
+.group__btn__wrpper__gift__service__payment button {
+  margin: 10px;
+}
+
+.wrapper__gift__service__payment hr {
+  height: 1px;
+  border: none;
+  background: var(--color-grey);
+}
+
+.wrapper__gift__service__payment > p {
+  font-weight: var(--font-weight-bold);
+  font-size: var(--font-size-s);
+}
+
+.title__name__service__payment {
+  font-weight: var(--font-weight-medium-bold);
+  line-height: 30px;
+}
+
+.title__des__service__payment {
+  line-height: 30px;
+}
+
+.title__price__service__payment {
+  line-height: 30px;
+  font-weight: var(--font-weight-medium-bold);
+  color: var(--color-pink);
+}
+
+.wrapper__gift__service__payment > img {
+  width: 25px;
+  position: absolute;
+  right: 30px;
+  top: 10px;
+}
+
+#add__gift__service__payment {
+  display: none;
+}
+
+/* Thông tin khách hàng-------------------------------------- */
+
+.wrapper__customer__information__payment {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: fit-content;
+  height: 280px;
+  display: block;
+  background: var(--color-white);
+  border-radius: 10px;
+  box-shadow: 2px 2px 5px var(--color-light-box);
+  padding: 20px;
+}
+
+.wrapper__customer__information__payment > p {
+  font-weight: var(--font-weight-bold);
+  font-size: var(--font-size-s);
+  text-align: center;
+}
+
+.group__btn__customer__information {
+  position: relative;
+  text-align: center;
+}
+
+.wrapper__customer__information__payment > img {
+  position: absolute;
+  width: 25px;
+  right: 10px;
+  top: 10px;
+}
+
+.wrapper__customer__information__payment > img:hover {
+  cursor: pointer;
+}
+
+#see__customer__information__payment {
+  display: none;
+}
+
+/* Nút số lượng ---------------------------------------------- */
+.input__number {
+  width: 30px;
+  text-align: center;
+  border-radius: 0;
+}
+
+.btnPrev {
+  border-top-right-radius: 0px;
+  border-bottom-right-radius: 0px;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+}
+
+.btnNext {
+  border-top-left-radius: 0px;
+  border-bottom-left-radius: 0px;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+}

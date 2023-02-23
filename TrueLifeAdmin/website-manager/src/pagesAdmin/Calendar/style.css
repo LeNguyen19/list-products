@@ -1,0 +1,42 @@
+.group__date__calendar {
+  width: 40%;
+}
+
+.group__date__calendar p {
+  margin: 0;
+  line-height: 30px;
+}
+
+.group__button__calendar {
+  width: 27%;
+}
+
+.date__calendar {
+  width: 134px;
+}
+
+.shift__calendar {
+  width: 50px;
+  text-align: center;
+  font-weight: var(--font-weight-bold);
+}
+
+.table__calendar {
+  border: 1px solid var(--color-grey);
+}
+
+.table__calendar td {
+  background: var(--color-white);
+  padding: 0;
+}
+
+.table__calendar textarea {
+  width: 132px;
+  height: 100px;
+  border: 1px solid var(--color-grey);
+  padding: 10px;
+}
+
+.group__btn__calendar{
+  width: 30%;
+}

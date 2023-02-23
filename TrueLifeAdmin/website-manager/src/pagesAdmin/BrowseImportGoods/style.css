@@ -1,0 +1,27 @@
+.seen__browseGoods {
+  width: 8%;
+  text-align: center;
+}
+
+.status__browseGoods {
+  width: 15%;
+  text-align: center;
+}
+
+.code__browseGoods {
+  width: 10%;
+  text-align: center;
+}
+
+.amount__browseGoods {
+  width: 15%;
+  text-align: center;
+}
+
+.nameSupplier__browseGoods {
+  text-align: start;
+}
+
+.money__browseGoods {
+  text-align: center;
+}

@@ -1,0 +1,42 @@
+.info__generality {
+  width: 70%;
+}
+
+.info__shop {
+  width: 25%;
+}
+
+.amount__staff p span {
+  color: #faa474;
+}
+
+.amount__client p span {
+  color: #74cafa;
+}
+
+.amount__product p span {
+  color: #74faba;
+}
+
+.info__shop div p,
+.info__generality p {
+  margin: 0;
+  font-size: var(--font-size-m);
+}
+
+.info__shop div p span {
+  font-size: var(--font-size-xl);
+  font-weight: var(--font-weight-bold);
+}
+
+.info__shop div img {
+  width: 80px;
+}
+
+.chart {
+  width: 100%;
+}
+
+.container__bar {
+  width: 100%;
+}

@@ -1,0 +1,21 @@
+.position__staff {
+  width: 14%;
+  text-align: start;
+}
+
+.icon__table__staff {
+  text-align: center;
+}
+
+div#border__dropdown__TypeStaff {
+  width: 100%;
+}
+
+.adress__staff {
+  width: 25%;
+  text-align: start;
+}
+
+.phone__client{
+  width: 13%;
+}

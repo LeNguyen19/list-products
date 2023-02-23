@@ -1,0 +1,111 @@
+.input__desAddEvent,
+.input__nameAddEvent {
+  width: 49%;
+}
+
+.input__desAddEvent input,
+.input__nameAddEvent input {
+  width: 96%;
+}
+
+.input__dateStart__addEvent,
+.input__dateEnd__addEvent,
+.input__formEvent {
+  width: 32%;
+}
+
+.input__dateStart__addEvent input,
+.input__dateEnd__addEvent input {
+  width: 94%;
+}
+
+#form1,
+#form2,
+#form3 {
+  display: none;
+}
+
+.title__input p {
+  margin: 0;
+  font-weight: var(--font-weight-medium);
+  line-height: 30px;
+}
+
+.input__typeProducts__addEvent,
+.input__product__addEvent,
+.input__amout__addEvent {
+  width: 24%;
+}
+
+.input__amout__addEvent input {
+  width: 91%;
+}
+
+.group__input__addEvent,
+.group__btn__form3 {
+  text-align: end;
+}
+
+.group__input__addEvent button,
+.group__btn__form3 button {
+  margin-left: 20px;
+}
+
+.update__addEvent,
+.deleted__addEvent,
+.amout__addEvent {
+  width: 1%;
+  text-align: center;
+}
+
+.dateStart__addEvent,
+.dateEnd__addEvent,
+.discount__addEvent {
+  width: 8%;
+  text-align: center;
+}
+
+.discountMax__addEvent {
+  text-align: start;
+  width: 8%;
+}
+
+.desEvent__addEvent,
+.nameEvent__addEvent,
+.donate__addEvent,
+.buy__addEvent,
+.nameProduct__addEvent {
+  width: 20%;
+  text-align: start;
+}
+
+/* Form 2----------------------------------------------------- */
+
+/* Form 3----------------------------------------------------------- */
+.input__promotionByProduct,
+.input__valuePromotin {
+  width: 18%;
+}
+
+.input__valuePromotin input {
+  width: 92%;
+}
+
+/* Dùng chung -------------------------------------------------------------- */
+.input__dateStart__addEvent .ant-picker.css-dev-only-do-not-override-9ntgx0,
+.input__dateEnd__addEvent .ant-picker.css-dev-only-do-not-override-9ntgx0 {
+  border: 1px solid var(--color-grey);
+  width: 270%;
+  float: left;
+}
+
+.input__dateStart__addEvent,
+.input__dateEnd__addEvent {
+  text-align: start;
+}
+
+/* ---------------------------------------- */
+.groupError p {
+  color: var(--color-pink);
+  margin-top: 15px;
+}

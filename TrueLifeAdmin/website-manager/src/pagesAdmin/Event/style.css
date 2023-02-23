@@ -1,0 +1,47 @@
+.group__effect {
+  width: 48%;
+}
+
+.group__input {
+  width: 48%;
+}
+
+.group__effect p {
+  margin: 0;
+  line-height: 30px;
+}
+
+.input__effect {
+  width: 85%;
+}
+
+.input__find {
+  width: 80%;
+}
+
+.input__find input {
+  width: 95%;
+}
+
+.start__event,
+.end__event,
+.effect__event {
+  width: 13%;
+  text-align: center;
+}
+
+.update__event,
+.deleted__event,
+.seen__event {
+  width: 5%;
+  text-align: center;
+}
+
+.type__event {
+  width: 19%;
+  text-align: start;
+}
+
+.name__event {
+  text-align: start;
+}

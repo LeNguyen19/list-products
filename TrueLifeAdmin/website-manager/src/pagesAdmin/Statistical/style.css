@@ -1,0 +1,49 @@
+.input__type__time {
+  width: 30%;
+}
+
+.input__type__statistical p,
+.input__type__time p {
+  margin: 0;
+  line-height: 30px;
+}
+
+.input__choose__type__time {
+  width: 65%;
+}
+
+.recharts-wrapper {
+  margin: 0 auto;
+}
+
+#group__dateTime {
+  width: 50%;
+}
+
+#group__year {
+  width: 25%;
+}
+
+#group__year p,
+#group__dateTime p {
+  line-height: 30px;
+  margin: 0;
+}
+
+.dateTime__start,
+.dateTime__end {
+  width: 46%;
+}
+
+.group__btn__statistical {
+  text-align: -webkit-right;
+}
+
+.input__choose__date {
+  width: 65%;
+  text-align: start;
+}
+
+.input__choose__date .ant-picker.css-dev-only-do-not-override-9ntgx0 {
+  width: 180px;
+}

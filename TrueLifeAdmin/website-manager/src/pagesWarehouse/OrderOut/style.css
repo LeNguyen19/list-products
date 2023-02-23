@@ -1,0 +1,21 @@
+.group__status__orderOut,
+.group__find__orderOut {
+  width: 48%;
+}
+
+.group__status__orderOut p {
+  margin: 0;
+  line-height: 30px;
+}
+
+.input__choose__status__orderOut {
+  width: 70%;
+}
+
+.group__find__orderOut input {
+  width: 85%;
+}
+
+#btn__print__bill {
+  display: none;
+}

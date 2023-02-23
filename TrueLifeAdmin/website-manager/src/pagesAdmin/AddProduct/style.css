@@ -1,0 +1,268 @@
+.group__combobox__addProduct,
+.group__input__addProduct {
+  width: 48%;
+}
+
+.group__inputName__addProduct {
+  width: 100%;
+}
+
+.group__inputName__addProduct input {
+  width: 98.3%;
+}
+
+.group__input__addProduct input {
+  width: 96.5%;
+}
+
+#color__product,
+#capacity__product,
+#fragrant__product {
+  display: none;
+  width: 83%;
+}
+
+#input__color__product,
+#input__fragrant__product,
+#input__capacity__product,
+#input__fragrantAndCapacity__product,
+#save__nature__color,
+#save__nature__fragrant,
+#save__nature__fragrantAndColor,
+#save__nature__capacity,
+#save__nature__none {
+  display: none;
+}
+
+#btn__add__color,
+#btn__add__fragrant,
+#btn__add__capacity,
+#btn__add__capacityAndfragrant {
+  width: 15%;
+  display: none;
+}
+
+.group__text__nature__addProduct textarea {
+  width: 98.3%;
+}
+
+.img__avt__product {
+  width: 20%;
+}
+
+.img__other__product {
+  width: 75%;
+}
+
+.list__img__product__addProduct {
+  display: grid;
+  grid-template-columns: auto auto auto auto auto;
+  grid-template-rows: 130px 117px;
+}
+
+.group__button__addProduct {
+  text-align: end;
+}
+.group__button__addProduct button {
+  margin-left: 15px;
+}
+
+.img__addProduct p,
+.imgOther__addProduct p {
+  font-weight: var(--font-weight-medium);
+}
+
+.img__addProduct input {
+  width: 98.3%;
+}
+
+.img__addProduct {
+  position: relative;
+}
+
+.btn__close__avtProduct {
+  position: absolute;
+  width: 25px;
+  opacity: 0.3;
+  right: 0;
+  top: 34px;
+}
+
+.btn__close__avtProduct:hover {
+  opacity: 1;
+  cursor: pointer;
+}
+
+.imgOther__addProduct input {
+  width: 95%;
+}
+
+.imgOther__addProduct {
+  position: relative;
+  text-align: start;
+}
+
+.btn__add__img {
+  position: absolute;
+  right: -2px;
+  top: 30px;
+}
+
+.imgOther__addProduct textarea {
+  width: 98.3%;
+  height: 110px;
+  border: 1px solid var(--color-grey);
+  border-radius: 5px;
+  font-family: "Quicksand", sans-serif;
+  font-size: 14px;
+  line-height: 22px;
+  padding: 5px 10px;
+  outline: none;
+}
+
+.btn__close__listImg {
+  top: 85px;
+}
+
+.text__desProduct {
+  padding: 5px 10px;
+  height: 120px;
+  width: 98.3%;
+}
+
+/* --------------------------------------------------------- */
+.Layout {
+  height: 100%;
+  width: 100%;
+  display: grid;
+  place-items: center;
+}
+
+.Container p {
+  margin-top: -10px;
+  color: #777;
+}
+
+.BoxUpload {
+  display: grid;
+  place-items: center;
+  border: 1px dashed var(--color-pink);
+  position: relative;
+  height: 235px;
+  width: 235px;
+  background: #fbfbff;
+  border-radius: 20px;
+}
+
+.BoxUpload .image-upload {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.BoxUpload .image-upload label {
+  cursor: pointer;
+  text-align: center;
+}
+
+.BoxUpload .image-upload label:hover {
+  opacity: 0.8;
+}
+
+.BoxUpload .image-upload > input {
+  display: none;
+}
+.ImagePreview {
+  position: relative;
+}
+
+.ImagePreview #uploaded-image {
+  height: 235px;
+  width: 235px;
+  object-fit: cover;
+  border-radius: 20px;
+}
+
+.image-upload p {
+  font-weight: 400 !important;
+  margin: 0 auto !important;
+}
+
+.close-icon {
+  background: #000;
+  border-radius: 5px;
+  opacity: 0.8;
+  position: absolute;
+  z-index: 10;
+  right: 15px;
+  top: 20px;
+  cursor: pointer;
+}
+
+.close-icon:hover {
+  opacity: 1;
+}
+
+div.ImagePreviewImg #uploaded-image1,
+div.ImagePreviewImg #uploaded-image2,
+div.ImagePreviewImg #uploaded-image3,
+div.ImagePreviewImg #uploaded-image4,
+div.ImagePreviewImg #uploaded-image5,
+div.ImagePreviewImg #uploaded-image6,
+div.ImagePreviewImg #uploaded-image7 {
+  width: 115px;
+  height: 115px;
+  border-radius: 20px;
+}
+
+div.ImagePreview #uploaded-avt {
+  width: 245px;
+  height: 245px;
+  border-radius: 20px;
+}
+
+div.BoxUploadImg {
+  width: 115px;
+  height: 115px;
+}
+
+div.BoxUploadAvt {
+  width: 245px;
+  height: 245px;
+}
+
+div.Layout {
+  height: fit-content;
+  width: fit-content;
+}
+
+/* --------------------------------------------------------- */
+
+.group__choose__type__img__product {
+  width: 45%;
+}
+
+.group__choose__type__img__product p {
+  margin: 0;
+  line-height: 30px;
+}
+
+.group__cbb__choose__img__product {
+  width: 70%;
+}
+
+#group__choose__list__image__product {
+  display: none;
+}
+
+#group__choose__image__product p {
+  font-weight: 400;
+  margin: 0 auto;
+}
+
+.input__name__addProduct {
+  width: 98.2%;
+}
+
+.group__text__nature__addProduct textarea {
+  width: 96.3%;
+}

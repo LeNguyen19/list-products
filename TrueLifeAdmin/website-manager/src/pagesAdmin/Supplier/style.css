@@ -1,0 +1,79 @@
+.info__supplier {
+  width: 80%;
+}
+
+.group__button__supplier {
+  width: 19%;
+}
+
+.input__nameSupplier,
+.input__phoneSupplier {
+  width: 48%;
+}
+
+.input__nameSupplier input,
+.input__phoneSupplier input {
+  width: 95%;
+}
+
+.input__addressSupplier {
+  width: 48%;
+}
+
+.input__addressSupplier input {
+  width: 95%;
+}
+
+.input__districtSupplier,
+.input__citySupplier {
+  width: 22%;
+}
+
+.group__button__supplier img {
+  width: 95px;
+  margin: 0 auto;
+}
+
+.code__supplier,
+.update__supplier,
+.deleted__supplier {
+  width: 6%;
+  text-align: center;
+}
+
+.phone__supplier {
+  width: 14%;
+  text-align: center;
+}
+
+.name__supplier {
+  width: 17%;
+}
+
+.name__supplier,
+.address__supplier,
+.email__supplier,
+.productType__supplier {
+  text-align: start;
+}
+
+.groupError p {
+  font-weight: var(--font-weight-medium);
+  margin: 0;
+}
+
+.groupError {
+  display: block;
+  height: fit-content;
+}
+
+#errorPhone,
+#errorEmail {
+  color: var(--color-pink);
+  display: none;
+  font-weight: var(--font-weight-medium);
+}
+
+.btn__save__info__supplier {
+  margin-right: 15px;
+}

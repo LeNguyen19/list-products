@@ -1,0 +1,128 @@
+.group__info__detail__product img {
+  width: 25%;
+  border: 1px solid var(--color-grey);
+}
+
+.group__info__detail__product table {
+  width: 72%;
+}
+
+.title__info__detail__product {
+  width: 15%;
+  font-weight: var(--font-weight-semibold);
+}
+
+.des__info__detail__product {
+  border: 1px solid var(--color-grey);
+  padding: 15px 20px;
+  text-align: justify;
+  line-height: 28px;
+}
+
+.group__btn__info__detail__product {
+  text-align: end;
+}
+
+.group__btn__info__detail__product button {
+  margin-left: 15px;
+}
+
+.code__detailProduct,
+.update__detailProduct,
+.deleted__detailProduct {
+  width: 5%;
+  text-align: center;
+}
+
+.date__detailProduct {
+  width: 13%;
+  text-align: center;
+}
+
+td.amout__detailProduct {
+  text-align: -webkit-center;
+}
+
+td.price__detailProduct {
+  text-align: -webkit-center;
+}
+
+th.nature__detailProduct {
+  text-align: -webkit-left;
+}
+
+tr.tr__child {
+  background: transparent !important;
+  line-height: 30px;
+}
+
+.list__img__detailProduct img {
+  width: 150px;
+  border: 1px solid var(--color-grey);
+}
+
+.input__des__product {
+  height: 180px;
+  border: 1px solid var(--color-pink);
+}
+
+div.ImagePreviewImg #upload-image1,
+div.ImagePreviewImg #upload-image2,
+div.ImagePreviewImg #upload-image3,
+div.ImagePreviewImg #upload-image4,
+div.ImagePreviewImg #upload-image5,
+div.ImagePreviewImg #upload-image6,
+div.ImagePreviewImg #upload-image7 {
+  width: 150px;
+  height: 150px;
+  border-radius: 20px;
+}
+
+div.BoxUploadImage {
+  width: 150px;
+  height: 150px;
+}
+
+.row-jcsb.group__info__detail__product table {
+  line-height: 40px;
+}
+
+.input__update__priceProduct {
+  border: 1px solid var(--color-pink);
+}
+
+.nature__detailProduct {
+  text-align: start;
+}
+
+.group__btn__detailProduct {
+  width: 16%;
+  margin-top: 28px;
+}
+
+.group__input__detailProduct {
+  width: 80%;
+}
+
+.input__name__productDetail {
+  width: 39%;
+  text-align: start;
+}
+
+.input__name__productDetail input {
+  width: 94%;
+}
+
+.cbb__nature__productDeatil {
+  width: 25%;
+  text-align: start;
+}
+
+.input__price__productDetail {
+  width: 14%;
+  text-align: start;
+}
+
+.input__price__productDetail input {
+  width: 84%;
+}

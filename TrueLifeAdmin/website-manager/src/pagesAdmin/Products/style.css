@@ -1,0 +1,52 @@
+.group__findInput__product,
+.group__findSelect__product {
+  width: 31%;
+}
+
+.group__findSelect__product p {
+  margin: 0;
+  line-height: 30px;
+}
+
+.group__select__product {
+  width: 65%;
+}
+
+.group__findInput__product input {
+  width: 65%;
+}
+
+.seen__product,
+.deleted__product {
+  width: 5%;
+  text-align: center;
+}
+
+.code__product {
+  width: 6%;
+}
+
+.supplier__product,
+.trademark__product,
+.type__product {
+  width: 14%;
+  text-align: start;
+}
+
+.amout__product {
+  width: 9%;
+  text-align: center;
+}
+
+.avt__product {
+  width: 9%;
+  text-align: center;
+}
+
+.avt__product img {
+  width: 100%;
+}
+
+.name__product {
+  text-align: start;
+}

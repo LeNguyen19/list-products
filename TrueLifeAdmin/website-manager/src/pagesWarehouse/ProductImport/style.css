@@ -1,0 +1,35 @@
+.nameProduct__productImport {
+  width: 35%;
+  text-align: start;
+}
+
+.amountStock__productImport,
+.moneyImport__productImport {
+  width: 14%;
+  text-align: center;
+}
+
+.trademarkProduct__productImport,
+.typeProduct__productImport {
+  width: 18%;
+  text-align: start;
+}
+
+.input__type__product__productImport,
+.input__trademark__product__productImport {
+  width: 45%;
+}
+
+.input__type__product__productImport p,
+.input__trademark__product__productImport p {
+  line-height: 30px;
+  margin: 0;
+}
+
+.input__choose__typeProduct__productImport {
+  width: 75%;
+}
+
+.input__choose__trademark__productImport {
+  width: 79%;
+}

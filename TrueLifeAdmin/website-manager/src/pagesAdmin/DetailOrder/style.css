@@ -1,0 +1,28 @@
+.img__browseOrder img {
+  width: 250px;
+}
+
+.price__browseOrder {
+  width: 10%;
+  text-align: center;
+}
+
+.amount__browseOrder {
+  width: 10%;
+  text-align: center;
+}
+
+.sumPrice__browseOrder {
+  width: 15%;
+  text-align: center;
+}
+
+.text__weight__browseOrder {
+  color: var(--color-pink);
+  font-weight: var(--font-weight-bold);
+}
+
+.group__btn__browseOrder {
+  text-align: end;
+}
+

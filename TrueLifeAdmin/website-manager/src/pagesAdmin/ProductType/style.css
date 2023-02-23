@@ -1,0 +1,37 @@
+.input__nameType {
+  width: 30%;
+}
+
+.input__chooseCategory {
+  width: 30%;
+}
+
+.input__nameType input {
+  width: 100%;
+}
+
+.code__productType,
+.uadate__productType,
+.deleted__productType {
+  width: 12%;
+  text-align: center;
+}
+
+.name____productType,
+.name__categoryType {
+  text-align: start;
+}
+
+#update__nameType,
+#update__chooseCategory,
+#group__save__cancel__productType {
+  display: none;
+}
+
+#group__save__cancel__productType {
+  text-align: end;
+}
+
+#group__save__cancel__productType button {
+  margin-left: 10px;
+}

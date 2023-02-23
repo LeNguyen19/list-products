@@ -1,0 +1,44 @@
+.group__nature__natureProduct {
+  width: 40%;
+}
+
+.group__nature__natureProduct p {
+  line-height: 30px;
+  margin: 0;
+}
+
+.cbb__choose__typeNature__natureProduct {
+  width: 66%;
+}
+
+.input__name__nature__natureProduct {
+  width: 72%;
+}
+
+.input__name__nature__natureProduct input {
+  width: 93%;
+}
+
+.code__natureProduct {
+  width: 8%;
+  text-align: center;
+}
+
+.type__natureProduct {
+  width: 30%;
+  text-align: start;
+}
+
+.name__natureProduct {
+  text-align: start;
+}
+
+#btn__save__natureProduct,
+#btn__cancel__natureProduct,
+#update__content__nature,#cbb__update__type__nature {
+  display: none;
+}
+
+input.input.value__input__save__natureProduct {
+  width: 90%;
+}

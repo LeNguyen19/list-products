@@ -1,0 +1,30 @@
+.name__browseOrder {
+  width: 14%;
+  text-align: start;
+}
+
+.status__browseOrder {
+  width: 12%;
+  text-align: start;
+}
+
+.phone__browseOrder {
+  width: 12%;
+  text-align: center;
+}
+
+.seen__browseOrder,
+.code__browseOrder {
+  width: 5%;
+  text-align: center;
+}
+
+.money__browseOrder,
+.date__browseOrder {
+  width: 9%;
+  text-align: center;
+}
+
+.address__browseOrder {
+  text-align: start;
+}

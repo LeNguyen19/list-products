@@ -1,0 +1,51 @@
+.from__login img {
+ transform: translateY(10%);
+}
+
+.from__login {
+  position: relative;
+}
+
+.content__from__login {
+  position: absolute;
+  width: 642px;
+  height: 442px;
+  background: transparent;
+  top: 0;
+  transform: translate(42%, 37%);
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.img__avt__from__login {
+  width: 100px;
+  height: 100px;
+  border: 1px solid var(--color-greyDark);
+  margin: 0 auto;
+  margin-top: 45px;
+  border-radius: 50px;
+}
+
+.img__btn__login img {
+  width: 130px;
+  height: 130px;
+  margin: 0 auto;
+}
+
+.img__btn__login :hover {
+  cursor: pointer;
+}
+
+.title__name {
+  font-size: var(--font-size-s);
+  font-weight: var(--font-weight-medium-bold);
+}
+
+#btn__logout {
+  display: none;
+}
+
+#show-time-start {
+  display: none;
+}
