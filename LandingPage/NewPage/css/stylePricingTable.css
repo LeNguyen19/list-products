@@ -1,0 +1,179 @@
+.tableContainer {
+  display: flex;
+  flex-direction: column;
+  row-gap: 45px;
+  position: relative;
+}
+
+.tableTab {
+  display: flex;
+  flex-direction: row;
+  padding: 5px;
+  background-color: var(--gray-white);
+}
+
+.tableTab > button {
+  transition: all 0.3s ease;
+}
+
+.tableTab__buttonOn {
+  width: 142px;
+  height: 50px;
+  background-color: white;
+  border-radius: 5px;
+  color: var(--dark-blue);
+  border: none;
+  cursor: pointer;
+  box-shadow: 0px 5px 6px -6px #999999;
+  font-size: var(--font-md);
+  font-weight: var(--weight-md);
+}
+
+.tableTab__buttonOff {
+  background-color: var(--gray-white);
+  box-shadow: none;
+}
+
+.tableTable {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  grid-gap: 30px;
+  margin: 0;
+}
+
+.tableTable__box {
+  width: 310px;
+  padding: 40px;
+  height: 490px;
+  box-shadow: 0 0 1px 1px #e7e7e7;
+  border-radius: 20px;
+  text-align: start;
+  display: flex;
+  flex-direction: column;
+  row-gap: 30px;
+  transition: all 0.3s ease;
+}
+
+.tableTable__box:hover {
+  box-shadow: 0 6px 20px 0px rgba(97, 97, 97, 0.19);
+}
+
+.tableTable__boxTitleMain {
+  font-size: var(--font-2xl);
+  padding-bottom: 10px;
+}
+
+.tableTable__boxTitleSub {
+  font-size: var(--font-md);
+  color: var(--dark-blue);
+  line-height: 28px;
+  font-weight: 300px;
+  margin: 0;
+}
+
+.tableTable__boxList ul {
+  padding: 0;
+  margin: 0;
+}
+
+.tableTable__boxListImg {
+  padding-right: 10px;
+}
+
+.tableTable__boxList li {
+  list-style-type: none;
+  font-size: var(--font-md);
+  color: var(--dark-blue);
+  line-height: 42px;
+  font-weight: var(--weight-md);
+}
+
+.tableTable__boxBottom {
+  display: flex;
+  flex-direction: column;
+  row-gap: 30px;
+}
+
+.tableTable__boxBottomBtn {
+  max-width: 210px;
+  width: 100%;
+  font-weight: var(--weight-md);
+  font-size: var(--font-md);
+  line-height: 24px;
+  letter-spacing: -0.16px;
+}
+
+.tableTable__boxBottomPrice {
+  display: flex;
+  flex-direction: row;
+  align-items: stretch;
+}
+
+.tableTable__boxBottomPriceNumber {
+  font-weight: var(--weight-md);
+  font-size: var(--font-3xl);
+  line-height: 39px;
+  letter-spacing: -0.9px;
+  margin: 0;
+}
+
+.tableTable__boxBottomPriceTitle {
+  margin: 0;
+  padding: 10px 0;
+}
+
+.tableTable__boxBottomNote {
+  color: var(--blue);
+  font-weight: var(--weight-bold);
+  font-size: var(--font-sm);
+  line-height: 24px;
+  letter-spacing: -0.225px;
+}
+
+.tableTable__Img {
+  position: absolute;
+  top: 27%;
+  right: 20%;
+}
+
+@keyframes example {
+  from {
+    top: 15px;
+  }
+  to {
+    top: 0px;
+  }
+}
+
+@keyframes example2 {
+  from {
+    top: 25px;
+  }
+  to {
+    top: 0px;
+  }
+}
+
+.tableTable__boxAction {
+  position: relative;
+  animation-name: example;
+  animation-duration: 1s;
+  animation-timing-function: ease-in-out;
+  animation-fill-mode: forwards;
+}
+
+.tableTable__boxAction2 {
+  animation: example 1.5s ease-in-out forwards;
+  position: relative;
+}
+
+.tableTable__boxAction3 {
+  position: relative;
+  animation: example2 1.5s ease-in-out forwards;
+}
+
+.tableTable__boxAction4 {
+  position: relative;
+  animation: example2 1.75s ease-in-out forwards;
+}

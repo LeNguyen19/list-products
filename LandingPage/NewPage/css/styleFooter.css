@@ -1,0 +1,113 @@
+.footer__container {
+  display: flex;
+  row-gap: 100px;
+}
+
+.footer__containerNewsletter {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer__containerNewsletter {
+  position: relative;
+}
+
+.footer__containerNewsletter--contentTitle {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  row-gap: 15px;
+  max-width: 546px;
+  width: 100%;
+}
+.footer__containerNewsletter--content {
+  display: flex;
+  row-gap: 60px;
+  flex-direction: column;
+  position: absolute;
+}
+
+.footer__containerNewsletter--contentTitle > h1 {
+  margin: 0;
+  padding: 0;
+  font-weight: var(--weight-bold);
+  font-size: var(--font-4xl);
+  line-height: 55px;
+  letter-spacing: -1.5px;
+  color: #ffffff;
+}
+
+.footer__containerNewsletter--contentTitle > p {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  font-size: var(--font-l);
+  line-height: 38px;
+  color: #ffffff;
+}
+
+.footer__containerNewsletter--contentInput {
+  max-width: 600px;
+  width: 100%;
+  height: 60px;
+  border-radius: 50px;
+  padding-left: 30px;
+  border: none;
+  font-weight: var(--weight-md);
+  font-size: var(--font-md);
+  line-height: 24px;
+  letter-spacing: -0.16px;
+  color: var(--pink);
+}
+
+.footer__containerNewsletter--img > img {
+  height: 407px;
+  max-width: 1250px;
+  width: 100%;
+}
+
+.btn {
+  position: absolute;
+  transform: translate(150%, 206%);
+}
+
+.footer__containerTopic {
+  display: flex;
+  flex-direction: row;
+  column-gap: 72px;
+}
+
+.footer__containerTopicIcon {
+  display: flex;
+  justify-content: center;
+  max-width: 278px;
+  width: 100%;
+}
+
+.footer__containerTopicTitle {
+  display: flex;
+  justify-content: center;
+}
+
+.footer__containerTopicSubTitle {
+  text-align: center;
+}
+
+.footer__containerTopicBox {
+  max-width: 278px;
+  width: 100%;
+}
+
+.footer__containerBottomFooter {
+  display: flex;
+  flex-direction: column;
+  padding: 72px 0 100px;
+  border-top: #e5ecf4 solid 1px;
+}
+
+.footer__containerBottomFooter--menuStyle a {
+  font-size: var(--font-sm);
+  line-height: 33px;
+  color: var(----dark-blue);
+}

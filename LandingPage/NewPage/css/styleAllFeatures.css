@@ -1,0 +1,24 @@
+.allFeatures {
+  display: flex;
+  justify-content: center;
+}
+
+.allFeatures__topic {
+  margin-top: 90px;
+  display: flex;
+  flex-direction: row;
+  grid-gap: 150px;
+}
+
+.topic__pace {
+  max-width: 544px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  grid-gap: 50px;
+}
+
+.topic__width {
+  max-width: 544px;
+  width: 100%;
+}

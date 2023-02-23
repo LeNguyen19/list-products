@@ -1,0 +1,11 @@
+.features {
+  display: flex;
+  justify-content: center;
+}
+
+.features__content {
+  margin-top: 90px;
+  flex-wrap: wrap;
+  display: flex;
+  grid-gap: 120px;
+}

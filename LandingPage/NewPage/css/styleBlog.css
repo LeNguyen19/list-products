@@ -1,0 +1,126 @@
+.blog {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.blog__container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  row-gap: 78px;
+}
+
+.blog__containerTitle {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  max-width: 538px;
+  width: 100%;
+}
+
+.blog__containerContent {
+  border-radius: 5px;
+  height: 500px;
+  display: flex;
+  justify-content: flex-start;
+  overflow: hidden;
+  position: relative;
+}
+.blog__containerContentSlider {
+  display: flex;
+  height: 100%;
+  flex-shrink: 0;
+  transition: all 0.5s ease-in;
+}
+section {
+  flex-basis: 20%;
+  flex-shrink: 0;
+  display: flex;
+  justify-content: center;
+}
+
+section .blog__containerContentSlider--group {
+  display: flex;
+  flex-direction: row;
+  column-gap: 30px;
+}
+
+.blog__containerContentSlider--groupBoxImg > img {
+  width: 397px;
+  border-radius: 10px 10px 0 0;
+}
+
+.blog__containerContentSlider--groupBox {
+  box-shadow: 0 6px 9px 0px rgba(97, 97, 97, 0.19);
+  height: 410px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  row-gap: 20px;
+}
+
+.blog__containerContentSlider--groupBox:hover {
+  box-shadow: 0 6px 20px 0px rgba(97, 97, 97, 0.22);
+}
+
+.blog__containerContentSlider--groupBoxTitle {
+  font-weight: var(--weight-bold);
+  font-size: var(--font-l);
+  line-height: 30px;
+  color: var(--dark-blue);
+  padding-left: 30px;
+}
+
+.blog__containerContentSlider--groupBoxInfor {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 0 30px 30px;
+}
+
+.blog__containerContentSlider--groupBoxName {
+  font-weight: var(--weight-md);
+  font-size: var(--font-l);
+  line-height: 30px;
+  color: var(--pink);
+}
+
+button.blog__containerContentButton--next {
+  position: absolute;
+  right: 45%;
+  bottom: 0;
+  width: 50px;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.blog__containerContentButton--next img {
+  width: 40px;
+  opacity: 0.4;
+}
+
+.blog__containerContentButton--next:hover img {
+  opacity: 1;
+}
+
+button.blog__containerContentButton--prev {
+  position: absolute;
+  left: 45%;
+  bottom: 0;
+  width: 50px;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.blog__containerContentButton--prev img {
+  width: 40px;
+  opacity: 0.4;
+}
+
+.blog__containerContentButton--prev:hover img {
+  opacity: 1;
+}
