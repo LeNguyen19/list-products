@@ -1,0 +1,137 @@
+.container__yourOrder {
+  max-width: 1185px;
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  row-gap: 30px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.title__listYourOder,
+.table__listYourOder {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.title__listYourOder p,
+.table__listYourOder p {
+  margin: 0;
+  margin: 5px 0;
+}
+
+.table__listYourOder p {
+  font-size: 14px;
+}
+
+.orderID {
+  width: 13%;
+  font-weight: var(--font-weight-bold);
+  text-align: center;
+}
+
+.orderDate,
+.orderValue,
+.statusOrder {
+  width: 12%;
+  font-weight: var(--font-weight-bold);
+  text-align: center;
+}
+
+.seeDetail a {
+  text-decoration: none;
+  color: var(--color-blackDark);
+}
+
+.seeDetail {
+  width: 15%;
+  font-weight: var(--font-weight-bold);
+  text-align: center;
+}
+
+.deliveryAddress {
+  width: 35%;
+  font-weight: var(--font-weight-bold);
+  text-align: center;
+}
+
+.table__listYourOder p {
+  font-weight: var(--font-weight-medium);
+}
+
+.table__listYourOder .deliveryAddress {
+  text-align: start;
+}
+
+.table__listYourOder .deliveryAddress {
+  margin: auto 0;
+}
+
+.table__listYourOder .orderID,
+.table__listYourOder .orderDate,
+.table__listYourOder .statusOrder,
+.table__listYourOder .orderValue,
+.table__listYourOder .seeDetail {
+  margin: auto;
+}
+
+.table__listYourOder .seeDetail p:hover {
+  padding: 5px 10px;
+  background: var(--color-pink);
+  border-radius: 5px;
+  color: var(--color-white);
+  cursor: pointer;
+}
+
+.table__listYourOder .seeDetail p {
+  padding: 5px 10px;
+}
+
+.paging {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.group__paging {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 15%;
+}
+
+.group__paging p {
+  margin: 0;
+}
+
+.arrowLeft {
+  width: 25px;
+  height: 25px;
+  background-image: url("../../assets/images/arrowPinkLeft.svg");
+  background-size: contain;
+  opacity: 0.3;
+  left: -100%;
+  top: -10%;
+}
+
+.arrowLeft:hover,
+.arrowRight:hover {
+  opacity: 1;
+  cursor: pointer;
+}
+
+.arrowRight {
+  width: 25px;
+  height: 25px;
+  background-image: url("../../assets/images/arrowPinkRight.svg");
+  background-size: contain;
+  opacity: 0.3;
+  top: -10%;
+}
+
+.wrapper__information hr {
+  height: 1px;
+}

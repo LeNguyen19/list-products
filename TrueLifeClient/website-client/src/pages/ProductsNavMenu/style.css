@@ -1,0 +1,8 @@
+#listProductsType{
+    display: none;
+}
+
+.listproducts__navMenu{
+    display: grid;
+    grid-template-columns: auto auto auto;
+}

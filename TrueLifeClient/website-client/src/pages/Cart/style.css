@@ -1,0 +1,104 @@
+.container__cart {
+  max-width: 1185px;
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  row-gap: 30px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.row-jcsb {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.list__products {
+  width: 70%;
+}
+
+.info__oder {
+  width: 25%;
+}
+
+.title__listProducts {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.title__listProducts p,
+.info__oder p {
+  margin: 0;
+  font-weight: var(--font-weight-bold);
+}
+
+.info__oder p {
+  text-align: center;
+  font-size: var(--font-size-s);
+}
+
+hr {
+  border: none;
+  background: var(--color-grey);
+  height: 1px;
+}
+
+.title__listProducts .title__image__products {
+  max-width: 150px;
+  width: 100%;
+}
+
+.title__listProducts .title__number__products {
+  max-width: 10%;
+  width: 100%;
+}
+
+.title__listProducts .title__name__products {
+  max-width: 30%;
+  width: 100%;
+}
+
+.title__listProducts .title__price__products {
+  max-width: 15%;
+  width: 100%;
+}
+
+.title__listProducts .title__icon__deleted__products {
+  max-width: 6%;
+  width: 100%;
+}
+
+.title__listProducts p {
+  text-align: center;
+  font-size: var(--font-size-s);
+}
+
+.info__oder td {
+  width: 200px;
+}
+
+.into__money {
+  color: var(--color-pink);
+  font-weight: var(--font-weight-bold);
+}
+
+td {
+  height: 30px;
+}
+
+.info__oder button {
+  background: var(--color-pink);
+  width: 100%;
+  margin: 10px 0;
+  color: var(--color-white);
+  padding: 10px 0;
+  font-weight: var(--font-weight-semibold);
+}
+
+.info__oder button:hover {
+  background: var(--color-blackDark);
+  cursor: pointer;
+}

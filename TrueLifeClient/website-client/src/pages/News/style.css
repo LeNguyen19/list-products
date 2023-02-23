@@ -1,0 +1,33 @@
+.row{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between
+}
+
+.group__news__outstanding, .group__news__other{
+    width: 48%;
+}
+
+.group__news__outstanding img{
+    width: 100%;
+}
+
+.group__news__outstanding p{
+    text-align: justify;
+}
+
+.group__news__other img{
+    width: 30%;
+}
+
+.info__news{
+    width: 66%;
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+}
+
+.info__news h3, .info__news p{
+    margin: 0;
+    text-align: justify;
+}

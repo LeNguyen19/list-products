@@ -1,0 +1,35 @@
+.container__navInfoUser {
+  width: 100%;
+}
+.group__InfoUser {
+  display: flex;
+  flex-direction: row;
+}
+.group__InfoUser img {
+  width: 50px;
+  height: 50px;
+}
+
+.title__info p {
+  margin: 0;
+  padding: 2px 10px;
+}
+
+.title__info p {
+  font-weight: var(--font-weight-bold);
+}
+
+.light__title {
+  font-weight: var(--font-weight-medium) !important;
+}
+
+.container__navInfoUser p:hover {
+  color: var(--color-pink);
+  cursor: pointer;
+}
+
+.container__navInfoUser a{
+  text-decoration: none;
+  color: var(--color-blackDark);
+}
+

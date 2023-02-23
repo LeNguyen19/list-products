@@ -1,0 +1,20 @@
+.promotional__products p:hover {
+  cursor: pointer;
+  color: var(--color-pink);
+}
+
+.promotional__products {
+  display: flex;
+  flex-direction: column;
+  row-gap: 30px;
+}
+
+
+.promotional__products a {
+  text-decoration: none;
+  color: black;
+}
+
+.promotional__products a:hover {
+  color: var(--color-pink);
+}

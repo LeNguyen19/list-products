@@ -1,0 +1,123 @@
+.container__list {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.image__products img {
+  max-width: 150px;
+  width: 100%;
+}
+
+.image__products {
+  position: relative;
+}
+
+.name__products {
+  width: 30%;
+}
+
+.name__products p {
+  margin-top: 25%;
+}
+
+.price__products p {
+  line-height: 150px;
+  margin: 0;
+}
+
+.number__products {
+  line-height: 150px;
+}
+
+.number__products p {
+  margin: 0;
+  margin-left: 48%;
+}
+
+.number__products .group__amount button {
+  border: 1px solid var(--color-grey);
+  background: var(--color-white);
+  color: var(--color-blackDark);
+}
+
+.number__products .group__amount button:hover {
+  background: var(--color-pink);
+}
+
+.number__products .group__amount .btn__minus {
+  border-right: none;
+  border-bottom-left-radius: 15px;
+  border-top-left-radius: 15px;
+  font-size: var(--font-size-sm);
+  line-height: 10px;
+}
+
+.number__products .group__amount .btn__minus:hover {
+  border-right: none;
+  border-bottom-left-radius: 15px;
+  border-top-left-radius: 15px;
+  font-size: var(--font-size-sm);
+}
+
+.number__products .group__amount .btn__add {
+  border-left: none;
+  border-bottom-right-radius: 15px;
+  border-top-right-radius: 15px;
+  font-size: var(--font-size-sm);
+  line-height: 10px;
+}
+
+.number__products .group__amount .btn__add:hover {
+  border-left: none;
+  border-bottom-right-radius: 15px;
+  border-top-right-radius: 15px;
+  font-size: var(--font-size-sm);
+}
+
+.number__products .group__amount input {
+  height: 20px;
+  width: 40px;
+  line-height: 150px;
+  border-left: none;
+  border-right: none;
+}
+
+.number__products .group__amount {
+  margin-top: 57%;
+  display: flex;
+  flex-direction: row;
+  height: 35px;
+}
+
+.icon__deleted__products {
+  line-height: 150px;
+}
+
+.icon__deleted__products img {
+  width: 15px;
+  height: 20px;
+}
+
+.icon__deleted__products img:hover{
+  cursor: pointer;
+}
+
+.container__list .number__products {
+  max-width: 10%;
+  width: 100%;
+}
+
+.container__list .price__products {
+  max-width: 15%;
+  width: 100%;
+}
+
+.container__list .price__products p {
+  text-align: center;
+}
+
+.container__list .icon__deleted__products {
+  max-width: 6%;
+  width: 100%;
+}

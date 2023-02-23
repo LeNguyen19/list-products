@@ -1,0 +1,24 @@
+.container__updatePass {
+  max-width: 1185px;
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  row-gap: 30px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.container__updatePass input {
+  height: 30px;
+  outline: none;
+  border: 1px solid var(--color-grey);
+  width: 200%;
+}
+
+.container__updatePass td button {
+  color: var(--color-white);
+  background: var(--color-pink);
+  padding: 5px 20px;
+  width: 150px;
+}

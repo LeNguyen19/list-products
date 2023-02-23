@@ -1,0 +1,36 @@
+.container__group__support {
+  display: flex;
+  flex-direction: row;
+  column-gap: 30px;
+}
+
+.icon__support {
+  position: relative;
+}
+
+.icon__children img {
+  top: 0;
+  position: absolute;
+  width: 45px;
+  height: 45px;
+  transform: translate(50%, 50%);
+}
+
+.content__support {
+  max-width: 225px;
+  width: 100%;
+}
+
+.content__support h3 {
+  margin: 0;
+  margin-top: 8px;
+  margin-bottom: 10px;
+}
+
+.content__support p {
+  margin: 0;
+  color: var(--color-black);
+  font-weight: var(--font-weight-semibold);
+  opacity: 0.8;
+  font-size: var(--font-size-s);
+}

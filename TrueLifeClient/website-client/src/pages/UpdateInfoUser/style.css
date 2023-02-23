@@ -1,0 +1,171 @@
+.container__updateInfoUser {
+  max-width: 1185px;
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  row-gap: 30px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.input__updateInfoUser {
+  outline: none;
+  border: 1px solid var(--color-grey);
+  height: 30px;
+  width: 190%;
+  padding: 0 10px;
+  font-family: "Quicksand", sans-serif;
+  font-size: var(--font-size-sm);
+}
+
+
+.table__information .container__customRadio .radio span {
+  left: 0px;
+}
+
+.group__sex__infoUser {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+input.react-datepicker-ignore-onclickoutside {
+  outline: none;
+  border: 1px solid var(--color-pink);
+}
+
+.button__information button {
+  margin-top: 20px;
+}
+
+.Layout {
+  height: 100%;
+  width: 100%;
+  display: grid;
+  place-items: center;
+}
+
+.Container p {
+  margin-top: -10px;
+  color: #777;
+}
+
+.BoxUpload {
+  display: grid;
+  margin-top: -10px;
+  place-items: center;
+  border: 1px dashed var(--color-pink);
+  position: relative;
+  height: 250px;
+  width: 250px;
+  background: #fbfbff;
+  border-radius: 20px;
+}
+
+.BoxUpload .image-upload {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.BoxUpload .image-upload label {
+  cursor: pointer;
+  text-align: center;
+}
+
+.BoxUpload .image-upload label:hover {
+  opacity: 0.8;
+}
+
+.BoxUpload .image-upload > input {
+  display: none;
+}
+.ImagePreview {
+  position: relative;
+}
+
+.ImagePreview #uploaded-image {
+  height: 250px;
+  width: 250px;
+  object-fit: cover;
+  border-radius: 20px;
+}
+
+.close-icon {
+  background: #000;
+  border-radius: 5px;
+  opacity: 0.8;
+  position: absolute;
+  z-index: 10;
+  right: 15px;
+  top: 20px;
+  cursor: pointer;
+}
+
+.close-icon:hover {
+  opacity: 1;
+}
+
+#errorPhone,
+#errorEmail {
+  color: var(--color-pink);
+  display: none;
+  font-weight: var(--font-weight-medium);
+  position: absolute;
+}
+
+.groupError {
+  display: block;
+  height: 50px;
+  position: relative;
+}
+
+:where(.css-dev-only-do-not-override-ixblex).ant-picker-focused {
+  border-color: var(--color-pink);
+}
+
+:where(.css-dev-only-do-not-override-ixblex).ant-picker:hover,
+:where(.css-dev-only-do-not-override-ixblex).ant-picker-focused {
+  border-color: var(--color-pink);
+}
+
+.ant-picker.css-dev-only-do-not-override-ixblex.ant-picker-focused input {
+  border: none !important;
+}
+
+:where(.css-dev-only-do-not-override-ixblex).ant-picker-dropdown
+  .ant-picker-cell-in-view.ant-picker-cell-today
+  .ant-picker-cell-inner::before {
+  border: 1px solid var(--color-pink);
+}
+
+:where(.css-dev-only-do-not-override-ixblex).ant-picker-dropdown
+  .ant-picker-today-btn {
+  color: var(--color-pink);
+}
+
+:where(.css-dev-only-do-not-override-ixblex).ant-picker-dropdown
+  .ant-picker-cell-in-view.ant-picker-cell-selected
+  .ant-picker-cell-inner,
+:where(.css-dev-only-do-not-override-ixblex).ant-picker-dropdown
+  .ant-picker-cell-in-view.ant-picker-cell-range-start
+  .ant-picker-cell-inner,
+:where(.css-dev-only-do-not-override-ixblex).ant-picker-dropdown
+  .ant-picker-cell-in-view.ant-picker-cell-range-end
+  .ant-picker-cell-inner {
+  color: #fff;
+  background: var(--color-pink);
+}
+
+:where(.css-dev-only-do-not-override-ixblex).ant-picker {
+  border-radius: none;
+}
+
+.ant-picker.css-dev-only-do-not-override-ixblex {
+  width: 286%;
+}
+
+.form-wrapper .ant-col  {
+  padding-left: 10px;
+  padding-right: 10px;
+}

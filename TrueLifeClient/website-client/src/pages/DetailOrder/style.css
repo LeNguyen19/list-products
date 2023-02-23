@@ -1,0 +1,51 @@
+.moneyProduct,
+.priceProduct {
+  width: 13%;
+}
+
+.amountProduct {
+  width: 10%;
+}
+
+.imgProduct {
+  width: 30%;
+}
+
+.nameProduct {
+  width: 30%;
+}
+
+.title__listYourOder .imgProduct,
+.title__listYourOder .nameProduct,
+.title__listYourOder .amountProduct,
+.title__listYourOder .priceProduct,
+.title__listYourOder .moneyProduct {
+  font-weight: var(--font-weight-bold);
+  text-align: center;
+}
+
+.list__detailOrder {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.imgProduct img {
+  width: 250px;
+}
+
+.list__detailOrder .nameProduct {
+  margin: auto;
+}
+
+.list__detailOrder .imgProduct,
+.list__detailOrder .amountProduct,
+.list__detailOrder .priceProduct,
+.list__detailOrder .moneyProduct {
+  margin: auto;
+  text-align: center;
+}
+
+.wrapper__information button {
+  margin: 0 39.8%;
+}

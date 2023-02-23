@@ -1,0 +1,9 @@
+.content__introduce p {
+  font-size: 16px;
+  text-align: justify;
+}
+
+.img__logo {
+  width: 60%;
+  margin: 0 20%;
+}

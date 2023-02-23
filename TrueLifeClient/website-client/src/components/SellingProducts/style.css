@@ -1,0 +1,20 @@
+.container__sellingProducts p:hover {
+  cursor: pointer;
+  color: var(--color-pink);
+}
+
+.container__sellingProducts {
+  display: flex;
+  flex-direction: column;
+  row-gap: 30px;
+}
+
+.container__sellingProducts a {
+  text-decoration: none;
+  color: black;
+}
+
+.container__sellingProducts a:hover {
+  color: var(--color-pink);
+}
+

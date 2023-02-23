@@ -1,0 +1,56 @@
+.new__products {
+  display: flex;
+  flex-direction: column;
+  row-gap: 30px;
+}
+
+#btnPrev {
+  max-width: 30px;
+  height: 30px;
+  width: 100%;
+  opacity: 0.2;
+  left: 0 !important;
+}
+
+#btnNext {
+  max-width: 30px;
+  height: 30px;
+  width: 100%;
+  right: 0 !important;
+  opacity: 0.2;
+}
+
+#btnPrev:hover {
+  opacity: 1;
+}
+
+#btnNext:hover {
+  opacity: 1;
+}
+
+.slick-dots li.slick-active button::before {
+  color: var(--color-pink) !important;
+}
+
+.new__products p:hover {
+  cursor: pointer;
+  color: var(--color-pink);
+}
+
+ul.slick-dots {
+  margin: -15px;
+}
+
+.new__products__title {
+  display: flex;
+  justify-content: center;
+}
+
+.new__products a {
+  text-decoration: none;
+  color: black;
+}
+
+.new__products a:hover {
+  color: var(--color-pink);
+}
